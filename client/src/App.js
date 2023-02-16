@@ -17,6 +17,7 @@ import Driver from "./adminComponents/Driver";
 import CreateDriver from "./adminComponents/CreateDriver";
 import Dashboard from "./adminComponents/Dashboard";
 import SideBar from "./adminComponents/SideBar";
+import Footer from "./components/Footer";
 
 
 function App() {
@@ -101,6 +102,7 @@ function App() {
     return (
       <div>
         <NavBar />
+        <Footer />
         <Routes>
           {/* <Route
             exact
@@ -145,6 +147,7 @@ function App() {
           />
         </Routes>
       </div>
+     
     );
   } else {
     return (
@@ -178,7 +181,9 @@ function App() {
         </Routes>
 
       </div>
+        
     );
+
 
   }
 }
