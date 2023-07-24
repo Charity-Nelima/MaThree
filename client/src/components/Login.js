@@ -59,7 +59,7 @@ function Login( {onLogin, isLoggedIn} ) {
         />
         {/* render authentication error */}
         {error.map( (err) => (
-          <h5 key={err} style={{color: 'red'}}>
+          <h5 key={err} style={{color: 'red'}}> 
             {err}!
           </h5>
         ))}

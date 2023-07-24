@@ -102,7 +102,10 @@ function App() {
     return (
       <div>
         <NavBar />
-        <Footer />
+        {/* <Footer /> */}
+
+      
+       
         <Routes>
           {/* <Route
             exact
@@ -145,10 +148,13 @@ function App() {
               <Logout handleLogout={handleLogout} isLoggedIn={setIsLoggedIn} />
             }
           />
+       
         </Routes>
       </div>
+      
      
     );
+  
   } else {
     return (
       <div>
@@ -183,7 +189,7 @@ function App() {
       </div>
         
     );
-
+    
 
   }
 }
